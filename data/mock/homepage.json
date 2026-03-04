@@ -1,0 +1,59 @@
+{
+  "data": {
+    "nodeHomepages": {
+      "__typename": "NodeHomepageConnection",
+      "nodes": [
+        {
+          "__typename": "NodeHomepage",
+          "id": "homepage",
+          "title": "Crestview Realty Homepage",
+          "path": "/homepage",
+          "heroTitle": "Find Your Perfect Home",
+          "heroSubtitle": "Crestview Realty",
+          "heroDescription": {
+            "processed": "<p>Whether you are buying your first home, upgrading to your dream property, or investing in real estate, our experienced agents are here to guide you every step of the way.</p>",
+            "summary": "Whether you are buying your first home, upgrading to your dream property, or investing in real estate, our experienced agents are here to guide you every step of the way."
+          },
+          "statsItems": [
+            {
+              "__typename": "ParagraphStatItem",
+              "id": "stat-1",
+              "title": "",
+              "number": "1,200+",
+              "label": "Homes Sold"
+            },
+            {
+              "__typename": "ParagraphStatItem",
+              "id": "stat-2",
+              "title": "",
+              "number": "98%",
+              "label": "Client Satisfaction"
+            },
+            {
+              "__typename": "ParagraphStatItem",
+              "id": "stat-3",
+              "title": "",
+              "number": "$850M",
+              "label": "Total Sales Volume"
+            },
+            {
+              "__typename": "ParagraphStatItem",
+              "id": "stat-4",
+              "title": "",
+              "number": "15",
+              "label": "Years in Business"
+            }
+          ],
+          "featuredItemsTitle": "Featured Listings",
+          "ctaTitle": "Ready to Make Your Move?",
+          "ctaDescription": {
+            "processed": "<p>Connect with one of our expert agents for a personalized consultation. We will help you navigate the market and find the right property at the right price.</p>",
+            "summary": "Connect with one of our expert agents for a personalized consultation. We will help you navigate the market and find the right property at the right price."
+          },
+          "ctaPrimary": "Schedule a Showing",
+          "ctaSecondary": "Browse Listings"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,701 @@
+{
+  "/homepage": {
+    "data": {
+      "route": {
+        "__typename": "RouteInternal",
+        "entity": {
+          "__typename": "NodeHomepage",
+          "id": "homepage",
+          "title": "Crestview Realty Homepage",
+          "path": "/homepage",
+          "heroTitle": "Find Your Perfect Home",
+          "heroSubtitle": "Crestview Realty",
+          "heroDescription": {
+            "processed": "<p>Whether you are buying your first home, upgrading to your dream property, or investing in real estate, our experienced agents are here to guide you every step of the way.</p>",
+            "summary": "Whether you are buying your first home, upgrading to your dream property, or investing in real estate, our experienced agents are here to guide you every step of the way."
+          },
+          "statsItems": [
+            {
+              "__typename": "ParagraphStatItem",
+              "id": "stat-1",
+              "title": "",
+              "number": "1,200+",
+              "label": "Homes Sold"
+            },
+            {
+              "__typename": "ParagraphStatItem",
+              "id": "stat-2",
+              "title": "",
+              "number": "98%",
+              "label": "Client Satisfaction"
+            },
+            {
+              "__typename": "ParagraphStatItem",
+              "id": "stat-3",
+              "title": "",
+              "number": "$850M",
+              "label": "Total Sales Volume"
+            },
+            {
+              "__typename": "ParagraphStatItem",
+              "id": "stat-4",
+              "title": "",
+              "number": "15",
+              "label": "Years in Business"
+            }
+          ],
+          "featuredItemsTitle": "Featured Listings",
+          "ctaTitle": "Ready to Make Your Move?",
+          "ctaDescription": {
+            "processed": "<p>Connect with one of our expert agents for a personalized consultation. We will help you navigate the market and find the right property at the right price.</p>",
+            "summary": "Connect with one of our expert agents for a personalized consultation. We will help you navigate the market and find the right property at the right price."
+          },
+          "ctaPrimary": "Schedule a Showing",
+          "ctaSecondary": "Browse Listings"
+        }
+      }
+    }
+  },
+  "/listings/craftsman-bungalow-oak-park": {
+    "data": {
+      "route": {
+        "__typename": "RouteInternal",
+        "entity": {
+          "__typename": "NodeListing",
+          "id": "listing-craftsman",
+          "title": "Charming Craftsman Bungalow",
+          "path": "/listings/craftsman-bungalow-oak-park",
+          "body": {
+            "processed": "<p>This beautifully restored 1920s Craftsman bungalow combines original character with modern amenities. Featuring original hardwood floors, built-in cabinetry, and a stunning stone fireplace in the living room.</p><h2>Key Features</h2><ul><li>Original hardwood floors throughout</li><li>Updated chef's kitchen with quartz countertops</li><li>Finished basement with home office</li><li>Private backyard with mature landscaping</li><li>Detached two-car garage</li><li>Walking distance to downtown shops and restaurants</li></ul>",
+            "summary": "This beautifully restored 1920s Craftsman bungalow combines original character with modern amenities. Featuring original hardwood floors, built-in cabinetry, and a stunning stone fireplace in the livi"
+          },
+          "price": "$485,000",
+          "bedrooms": 3,
+          "bathrooms": 2,
+          "squareFeet": "1,850",
+          "address": "742 Oak Park Avenue",
+          "propertyType": "Single Family",
+          "listingType": "For Sale",
+          "image": {
+            "url": "https://images.unsplash.com/photo-1518780664697-55e3ad937233?w=800&q=80",
+            "alt": "Craftsman bungalow with front porch",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1518780664697-55e3ad937233?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1518780664697-55e3ad937233?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1518780664697-55e3ad937233?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "/listings/modern-lakefront-condo": {
+    "data": {
+      "route": {
+        "__typename": "RouteInternal",
+        "entity": {
+          "__typename": "NodeListing",
+          "id": "listing-modern",
+          "title": "Modern Lakefront Condominium",
+          "path": "/listings/modern-lakefront-condo",
+          "body": {
+            "processed": "<p>Enjoy stunning lake views from this contemporary two-bedroom condominium in the sought-after Lakeside Tower. Floor-to-ceiling windows flood the open living space with natural light.</p><h2>Key Features</h2><ul><li>Panoramic lake views from every room</li><li>Open-concept living and dining area</li><li>Gourmet kitchen with stainless steel appliances</li><li>Private balcony overlooking the lake</li><li>In-unit washer and dryer</li><li>Building amenities include pool, gym, and concierge</li></ul>",
+            "summary": "Enjoy stunning lake views from this contemporary two-bedroom condominium in the sought-after Lakeside Tower. Floor-to-ceiling windows flood the open living space with natural light.Key FeaturesPanoram"
+          },
+          "price": "$375,000",
+          "bedrooms": 2,
+          "bathrooms": 2,
+          "squareFeet": "1,200",
+          "address": "200 Lakeside Drive, Unit 1805",
+          "propertyType": "Condominium",
+          "listingType": "For Sale",
+          "image": {
+            "url": "https://images.unsplash.com/photo-1502672260266-1c1ef2d93688?w=800&q=80",
+            "alt": "Modern condo interior with lake view",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1502672260266-1c1ef2d93688?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1502672260266-1c1ef2d93688?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1502672260266-1c1ef2d93688?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "/listings/colonial-estate-willow-creek": {
+    "data": {
+      "route": {
+        "__typename": "RouteInternal",
+        "entity": {
+          "__typename": "NodeListing",
+          "id": "listing-colonial",
+          "title": "Stately Colonial Estate",
+          "path": "/listings/colonial-estate-willow-creek",
+          "body": {
+            "processed": "<p>A magnificent Colonial estate set on two acres of manicured grounds. This five-bedroom home offers gracious living spaces, a gourmet kitchen, and resort-style outdoor amenities.</p><h2>Key Features</h2><ul><li>Grand foyer with sweeping staircase</li><li>Chef's kitchen with island and butler's pantry</li><li>Primary suite with sitting room and spa bath</li><li>Heated in-ground pool with pool house</li><li>Three-car attached garage</li><li>Home theater and wine cellar</li></ul>",
+            "summary": "A magnificent Colonial estate set on two acres of manicured grounds. This five-bedroom home offers gracious living spaces, a gourmet kitchen, and resort-style outdoor amenities.Key FeaturesGrand foyer"
+          },
+          "price": "$1,250,000",
+          "bedrooms": 5,
+          "bathrooms": 4,
+          "squareFeet": "4,200",
+          "address": "15 Willow Creek Lane",
+          "propertyType": "Single Family",
+          "listingType": "For Sale",
+          "image": {
+            "url": "https://images.unsplash.com/photo-1564013799919-ab600027ffc6?w=800&q=80",
+            "alt": "Stately colonial home with landscaped yard",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1564013799919-ab600027ffc6?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1564013799919-ab600027ffc6?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1564013799919-ab600027ffc6?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "/listings/downtown-loft-rental": {
+    "data": {
+      "route": {
+        "__typename": "RouteInternal",
+        "entity": {
+          "__typename": "NodeListing",
+          "id": "listing-rental",
+          "title": "Industrial-Chic Downtown Loft",
+          "path": "/listings/downtown-loft-rental",
+          "body": {
+            "processed": "<p>Live in the heart of the arts district in this converted warehouse loft featuring soaring 14-foot ceilings, exposed brick walls, and oversized factory windows.</p><h2>Key Features</h2><ul><li>Open floor plan with 14-foot ceilings</li><li>Original exposed brick and timber beams</li><li>Updated kitchen with concrete countertops</li><li>Walk-in closet and en-suite bathroom</li><li>One dedicated parking space</li><li>Pet-friendly building</li></ul>",
+            "summary": "Live in the heart of the arts district in this converted warehouse loft featuring soaring 14-foot ceilings, exposed brick walls, and oversized factory windows.Key FeaturesOpen floor plan with 14-foot "
+          },
+          "price": "$2,400/month",
+          "bedrooms": 1,
+          "bathrooms": 1,
+          "squareFeet": "950",
+          "address": "88 Warehouse Row, Loft 4B",
+          "propertyType": "Loft",
+          "listingType": "For Rent",
+          "image": {
+            "url": "https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?w=800&q=80",
+            "alt": "Industrial loft with exposed brick",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "/agents/rachel-morgan": {
+    "data": {
+      "route": {
+        "__typename": "RouteInternal",
+        "entity": {
+          "__typename": "NodeAgent",
+          "id": "agent-rachel",
+          "title": "Rachel Morgan",
+          "path": "/agents/rachel-morgan",
+          "body": {
+            "processed": "<p>Rachel is the founder and lead broker of Crestview Realty. With over 15 years of experience and $250M in career sales, she specializes in luxury residential properties and has consistently been recognized as a top producer in the region.</p>",
+            "summary": "Rachel is the founder and lead broker of Crestview Realty. With over 15 years of experience and $250M in career sales, she specializes in luxury residential properties and has consistently been recogn"
+          },
+          "position": "Broker / Owner",
+          "email": "rachel@crestviewrealty.com",
+          "phone": "(555) 234-5678",
+          "licenseNumber": "RE-2010-45678",
+          "photo": {
+            "url": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=800&q=80",
+            "alt": "Rachel Morgan, Broker",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "/agents/tom-delgado": {
+    "data": {
+      "route": {
+        "__typename": "RouteInternal",
+        "entity": {
+          "__typename": "NodeAgent",
+          "id": "agent-tom",
+          "title": "Tom Delgado",
+          "path": "/agents/tom-delgado",
+          "body": {
+            "processed": "<p>Tom specializes in first-time homebuyers and investment properties. His patient, educational approach has helped hundreds of families navigate the home buying process with confidence. He is bilingual in English and Spanish.</p>",
+            "summary": "Tom specializes in first-time homebuyers and investment properties. His patient, educational approach has helped hundreds of families navigate the home buying process with confidence. He is bilingual "
+          },
+          "position": "Senior Agent",
+          "email": "tom@crestviewrealty.com",
+          "phone": "(555) 234-5679",
+          "licenseNumber": "RE-2015-67890",
+          "photo": {
+            "url": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=800&q=80",
+            "alt": "Tom Delgado, Senior Agent",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "/agents/priya-sharma": {
+    "data": {
+      "route": {
+        "__typename": "RouteInternal",
+        "entity": {
+          "__typename": "NodeAgent",
+          "id": "agent-priya",
+          "title": "Priya Sharma",
+          "path": "/agents/priya-sharma",
+          "body": {
+            "processed": "<p>Priya brings a background in urban planning to her real estate practice, giving her clients unique insights into neighborhood development trends and investment potential. She focuses on condominiums and urban properties.</p>",
+            "summary": "Priya brings a background in urban planning to her real estate practice, giving her clients unique insights into neighborhood development trends and investment potential. She focuses on condominiums a"
+          },
+          "position": "Agent, Urban Properties",
+          "email": "priya@crestviewrealty.com",
+          "phone": "(555) 234-5680",
+          "licenseNumber": "RE-2018-12345",
+          "photo": {
+            "url": "https://images.unsplash.com/photo-1580489944761-15a19d654956?w=800&q=80",
+            "alt": "Priya Sharma, Agent",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1580489944761-15a19d654956?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1580489944761-15a19d654956?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1580489944761-15a19d654956?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "/neighborhoods/downtown": {
+    "data": {
+      "route": {
+        "__typename": "RouteInternal",
+        "entity": {
+          "__typename": "NodeNeighborhood",
+          "id": "neighborhood-downtown",
+          "title": "Downtown",
+          "path": "/neighborhoods/downtown",
+          "body": {
+            "processed": "<p>The vibrant heart of the city, Downtown offers an urban lifestyle with walkable streets, diverse dining options, and a thriving arts and entertainment scene.</p><h2>Living Here</h2><ul><li>Condos and lofts ranging from studios to three-bedrooms</li><li>Steps from restaurants, cafes, and nightlife</li><li>Excellent public transit connections</li><li>Farmers market every Saturday</li></ul><h2>Best For</h2><p>Young professionals, couples, and anyone who values walkability and cultural access over yard space.</p>",
+            "summary": "The vibrant heart of the city, Downtown offers an urban lifestyle with walkable streets, diverse dining options, and a thriving arts and entertainment scene.Living HereCondos and lofts ranging from st"
+          },
+          "medianPrice": "$340,000",
+          "walkScore": 92,
+          "image": {
+            "url": "https://images.unsplash.com/photo-1449824913935-59a10b8d2000?w=800&q=80",
+            "alt": "Downtown city streets with shops and restaurants",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1449824913935-59a10b8d2000?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1449824913935-59a10b8d2000?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1449824913935-59a10b8d2000?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "/neighborhoods/oak-park": {
+    "data": {
+      "route": {
+        "__typename": "RouteInternal",
+        "entity": {
+          "__typename": "NodeNeighborhood",
+          "id": "neighborhood-oakpark",
+          "title": "Oak Park",
+          "path": "/neighborhoods/oak-park",
+          "body": {
+            "processed": "<p>A charming, tree-lined neighborhood known for its historic homes, excellent schools, and strong sense of community. Oak Park is consistently ranked among the best places to raise a family.</p><h2>Living Here</h2><ul><li>Craftsman bungalows, Victorians, and newer construction</li><li>Top-rated elementary and middle schools</li><li>Community parks with playgrounds and sports fields</li><li>Annual block parties and neighborhood events</li></ul><h2>Best For</h2><p>Families, professionals seeking a quieter lifestyle with easy access to the city, and architecture enthusiasts.</p>",
+            "summary": "A charming, tree-lined neighborhood known for its historic homes, excellent schools, and strong sense of community. Oak Park is consistently ranked among the best places to raise a family.Living HereC"
+          },
+          "medianPrice": "$475,000",
+          "walkScore": 78,
+          "image": {
+            "url": "https://images.unsplash.com/photo-1568605114967-8130f3a36994?w=800&q=80",
+            "alt": "Tree-lined residential street in Oak Park",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1568605114967-8130f3a36994?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1568605114967-8130f3a36994?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1568605114967-8130f3a36994?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "/neighborhoods/lakeside": {
+    "data": {
+      "route": {
+        "__typename": "RouteInternal",
+        "entity": {
+          "__typename": "NodeNeighborhood",
+          "id": "neighborhood-lakeside",
+          "title": "Lakeside",
+          "path": "/neighborhoods/lakeside",
+          "body": {
+            "processed": "<p>An upscale waterfront community offering luxury living with stunning lake views. Lakeside features high-rise condos, boutique shopping, and some of the best dining in the region.</p><h2>Living Here</h2><ul><li>Luxury condominiums and townhomes</li><li>Lakefront walking and biking trails</li><li>Marina with boat slips</li><li>Upscale shopping and fine dining</li></ul><h2>Best For</h2><p>Professionals and retirees who value premium amenities, lake access, and a resort-like atmosphere.</p>",
+            "summary": "An upscale waterfront community offering luxury living with stunning lake views. Lakeside features high-rise condos, boutique shopping, and some of the best dining in the region.Living HereLuxury cond"
+          },
+          "medianPrice": "$625,000",
+          "walkScore": 85,
+          "image": {
+            "url": "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=800&q=80",
+            "alt": "Lakeside community with waterfront condos",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "/blog/spring-market-outlook": {
+    "data": {
+      "route": {
+        "__typename": "RouteInternal",
+        "entity": {
+          "__typename": "NodeBlogPost",
+          "id": "blog-spring-market",
+          "title": "Spring 2026 Housing Market Outlook",
+          "path": "/blog/spring-market-outlook",
+          "body": {
+            "processed": "<p>As we head into the spring selling season, the local housing market is showing signs of balanced conditions after several years of intense competition.</p><h2>What Buyers Should Know</h2><ul><li>Inventory levels are up 15% compared to last spring</li><li>Mortgage rates have stabilized in the mid-6% range</li><li>Multiple offer situations are less common but still happen in desirable neighborhoods</li></ul><h2>What Sellers Should Know</h2><ul><li>Pricing correctly from day one is more important than ever</li><li>Homes that are well-staged and professionally photographed sell 20% faster</li><li>The first two weeks on the market are critical for generating interest</li></ul>",
+            "summary": "As we head into the spring selling season, the local housing market is showing signs of balanced conditions after several years of intense competition.What Buyers Should KnowInventory levels are up 15"
+          },
+          "postCategory": "Market Update",
+          "image": {
+            "url": "https://images.unsplash.com/photo-1560518883-ce09059eeffa?w=800&q=80",
+            "alt": "Spring housing market with homes for sale",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1560518883-ce09059eeffa?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1560518883-ce09059eeffa?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1560518883-ce09059eeffa?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "/blog/first-time-homebuyer-guide": {
+    "data": {
+      "route": {
+        "__typename": "RouteInternal",
+        "entity": {
+          "__typename": "NodeBlogPost",
+          "id": "blog-first-time",
+          "title": "The Complete First-Time Homebuyer Guide",
+          "path": "/blog/first-time-homebuyer-guide",
+          "body": {
+            "processed": "<p>Buying your first home is one of the most exciting and overwhelming experiences of your life. This guide breaks the process down into manageable steps.</p><h2>Before You Start Looking</h2><ul><li>Check your credit score and address any issues</li><li>Get pre-approved for a mortgage</li><li>Determine your budget (including closing costs and moving expenses)</li><li>Make a wish list vs. a must-have list</li></ul><h2>The Buying Process</h2><ul><li>Work with an experienced buyer's agent</li><li>Tour properties and take notes</li><li>Make an offer and negotiate</li><li>Complete inspections and appraisal</li><li>Close and get your keys</li></ul><p>Our agents specialize in guiding first-time buyers through every step. Reach out for a free consultation.</p>",
+            "summary": "Buying your first home is one of the most exciting and overwhelming experiences of your life. This guide breaks the process down into manageable steps.Before You Start LookingCheck your credit score a"
+          },
+          "postCategory": "Buyer Guide",
+          "image": {
+            "url": "https://images.unsplash.com/photo-1560184897-ae75f418493e?w=800&q=80",
+            "alt": "Couple receiving keys to their new home",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1560184897-ae75f418493e?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1560184897-ae75f418493e?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1560184897-ae75f418493e?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "/blog/home-staging-tips": {
+    "data": {
+      "route": {
+        "__typename": "RouteInternal",
+        "entity": {
+          "__typename": "NodeBlogPost",
+          "id": "blog-staging",
+          "title": "10 Home Staging Tips That Actually Work",
+          "path": "/blog/home-staging-tips",
+          "body": {
+            "processed": "<p>Staged homes sell faster and for more money. Here are proven staging strategies that deliver real results.</p><h2>High-Impact Tips</h2><ul><li><strong>Declutter ruthlessly</strong> - Remove 50% of your belongings from visible surfaces</li><li><strong>Deep clean everything</strong> - Especially kitchens, bathrooms, and windows</li><li><strong>Neutralize paint colors</strong> - Light gray and warm white appeal to the widest audience</li><li><strong>Upgrade lighting</strong> - Replace dated fixtures and add lamps for warmth</li><li><strong>Boost curb appeal</strong> - Fresh mulch, trimmed hedges, and a painted front door</li></ul><h2>The Numbers</h2><p>According to the National Association of Realtors, staged homes sell for an average of 6% more than non-staged homes and spend 73% less time on the market.</p>",
+            "summary": "Staged homes sell faster and for more money. Here are proven staging strategies that deliver real results.High-Impact TipsDeclutter ruthlessly - Remove 50% of your belongings from visible surfacesDeep"
+          },
+          "postCategory": "Seller Tips",
+          "image": {
+            "url": "https://images.unsplash.com/photo-1616486338812-3dadae4b4ace?w=800&q=80",
+            "alt": "Beautifully staged living room",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1616486338812-3dadae4b4ace?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1616486338812-3dadae4b4ace?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1616486338812-3dadae4b4ace?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "/about": {
+    "data": {
+      "route": {
+        "__typename": "RouteInternal",
+        "entity": {
+          "__typename": "NodePage",
+          "id": "about-page",
+          "title": "About Crestview Realty",
+          "path": "/about",
+          "body": {
+            "processed": "<p>Crestview Realty has been helping families buy and sell homes since 2011. As a locally owned and operated brokerage, we combine deep neighborhood expertise with modern marketing strategies to deliver exceptional results for our clients.</p><h2>Our Approach</h2><p>We believe in a relationship-first approach to real estate. Our agents take the time to understand your goals, timeline, and budget before showing you a single property. This personalized service has earned us a 98% client satisfaction rating.</p><h2>Our Promise</h2><ul><li><strong>Expert Guidance</strong> - Licensed, experienced agents who know the local market</li><li><strong>Transparent Communication</strong> - Regular updates and honest advice throughout the process</li><li><strong>Full-Service Support</strong> - From financing to closing, we coordinate every detail</li></ul>",
+            "summary": "Crestview Realty has been helping families buy and sell homes since 2011. As a locally owned and operated brokerage, we combine deep neighborhood expertise with modern marketing strategies to deliver "
+          }
+        }
+      }
+    }
+  },
+  "/contact": {
+    "data": {
+      "route": {
+        "__typename": "RouteInternal",
+        "entity": {
+          "__typename": "NodePage",
+          "id": "contact-page",
+          "title": "Contact Crestview Realty",
+          "path": "/contact",
+          "body": {
+            "processed": "<p>Ready to start your real estate journey? We would love to hear from you.</p><h2>Office</h2><p>Crestview Realty<br/>456 Main Street, Suite 200<br/>Springfield, IL 62701</p><h2>Hours</h2><p>Monday - Friday: 9:00 AM - 6:00 PM<br/>Saturday: 10:00 AM - 4:00 PM<br/>Sunday: By Appointment</p><h2>Contact</h2><p>Phone: (555) 234-5678<br/>Email: info@crestviewrealty.com</p>",
+            "summary": "Ready to start your real estate journey? We would love to hear from you.OfficeCrestview Realty456 Main Street, Suite 200Springfield, IL 62701HoursMonday - Friday: 9:00 AM - 6:00 PMSaturday: 10:00 AM -"
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,123 @@
+{
+  "data": {
+    "nodeNeighborhoods": {
+      "__typename": "NodeNeighborhoodConnection",
+      "nodes": [
+        {
+          "__typename": "NodeNeighborhood",
+          "id": "neighborhood-downtown",
+          "title": "Downtown",
+          "path": "/neighborhoods/downtown",
+          "body": {
+            "processed": "<p>The vibrant heart of the city, Downtown offers an urban lifestyle with walkable streets, diverse dining options, and a thriving arts and entertainment scene.</p><h2>Living Here</h2><ul><li>Condos and lofts ranging from studios to three-bedrooms</li><li>Steps from restaurants, cafes, and nightlife</li><li>Excellent public transit connections</li><li>Farmers market every Saturday</li></ul><h2>Best For</h2><p>Young professionals, couples, and anyone who values walkability and cultural access over yard space.</p>",
+            "summary": "The vibrant heart of the city, Downtown offers an urban lifestyle with walkable streets, diverse dining options, and a thriving arts and entertainment scene.Living HereCondos and lofts ranging from st"
+          },
+          "medianPrice": "$340,000",
+          "walkScore": 92,
+          "image": {
+            "url": "https://images.unsplash.com/photo-1449824913935-59a10b8d2000?w=800&q=80",
+            "alt": "Downtown city streets with shops and restaurants",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1449824913935-59a10b8d2000?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1449824913935-59a10b8d2000?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1449824913935-59a10b8d2000?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          }
+        },
+        {
+          "__typename": "NodeNeighborhood",
+          "id": "neighborhood-oakpark",
+          "title": "Oak Park",
+          "path": "/neighborhoods/oak-park",
+          "body": {
+            "processed": "<p>A charming, tree-lined neighborhood known for its historic homes, excellent schools, and strong sense of community. Oak Park is consistently ranked among the best places to raise a family.</p><h2>Living Here</h2><ul><li>Craftsman bungalows, Victorians, and newer construction</li><li>Top-rated elementary and middle schools</li><li>Community parks with playgrounds and sports fields</li><li>Annual block parties and neighborhood events</li></ul><h2>Best For</h2><p>Families, professionals seeking a quieter lifestyle with easy access to the city, and architecture enthusiasts.</p>",
+            "summary": "A charming, tree-lined neighborhood known for its historic homes, excellent schools, and strong sense of community. Oak Park is consistently ranked among the best places to raise a family.Living HereC"
+          },
+          "medianPrice": "$475,000",
+          "walkScore": 78,
+          "image": {
+            "url": "https://images.unsplash.com/photo-1568605114967-8130f3a36994?w=800&q=80",
+            "alt": "Tree-lined residential street in Oak Park",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1568605114967-8130f3a36994?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1568605114967-8130f3a36994?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1568605114967-8130f3a36994?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          }
+        },
+        {
+          "__typename": "NodeNeighborhood",
+          "id": "neighborhood-lakeside",
+          "title": "Lakeside",
+          "path": "/neighborhoods/lakeside",
+          "body": {
+            "processed": "<p>An upscale waterfront community offering luxury living with stunning lake views. Lakeside features high-rise condos, boutique shopping, and some of the best dining in the region.</p><h2>Living Here</h2><ul><li>Luxury condominiums and townhomes</li><li>Lakefront walking and biking trails</li><li>Marina with boat slips</li><li>Upscale shopping and fine dining</li></ul><h2>Best For</h2><p>Professionals and retirees who value premium amenities, lake access, and a resort-like atmosphere.</p>",
+            "summary": "An upscale waterfront community offering luxury living with stunning lake views. Lakeside features high-rise condos, boutique shopping, and some of the best dining in the region.Living HereLuxury cond"
+          },
+          "medianPrice": "$625,000",
+          "walkScore": 85,
+          "image": {
+            "url": "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=800&q=80",
+            "alt": "Lakeside community with waterfront condos",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          }
+        }
+      ]
+    }
+  }
+}

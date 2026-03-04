@@ -1,0 +1,181 @@
+{
+  "data": {
+    "nodeListings": {
+      "__typename": "NodeListingConnection",
+      "nodes": [
+        {
+          "__typename": "NodeListing",
+          "id": "listing-craftsman",
+          "title": "Charming Craftsman Bungalow",
+          "path": "/listings/craftsman-bungalow-oak-park",
+          "body": {
+            "processed": "<p>This beautifully restored 1920s Craftsman bungalow combines original character with modern amenities. Featuring original hardwood floors, built-in cabinetry, and a stunning stone fireplace in the living room.</p><h2>Key Features</h2><ul><li>Original hardwood floors throughout</li><li>Updated chef's kitchen with quartz countertops</li><li>Finished basement with home office</li><li>Private backyard with mature landscaping</li><li>Detached two-car garage</li><li>Walking distance to downtown shops and restaurants</li></ul>",
+            "summary": "This beautifully restored 1920s Craftsman bungalow combines original character with modern amenities. Featuring original hardwood floors, built-in cabinetry, and a stunning stone fireplace in the livi"
+          },
+          "price": "$485,000",
+          "bedrooms": 3,
+          "bathrooms": 2,
+          "squareFeet": "1,850",
+          "address": "742 Oak Park Avenue",
+          "propertyType": "Single Family",
+          "listingType": "For Sale",
+          "image": {
+            "url": "https://images.unsplash.com/photo-1518780664697-55e3ad937233?w=800&q=80",
+            "alt": "Craftsman bungalow with front porch",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1518780664697-55e3ad937233?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1518780664697-55e3ad937233?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1518780664697-55e3ad937233?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          }
+        },
+        {
+          "__typename": "NodeListing",
+          "id": "listing-modern",
+          "title": "Modern Lakefront Condominium",
+          "path": "/listings/modern-lakefront-condo",
+          "body": {
+            "processed": "<p>Enjoy stunning lake views from this contemporary two-bedroom condominium in the sought-after Lakeside Tower. Floor-to-ceiling windows flood the open living space with natural light.</p><h2>Key Features</h2><ul><li>Panoramic lake views from every room</li><li>Open-concept living and dining area</li><li>Gourmet kitchen with stainless steel appliances</li><li>Private balcony overlooking the lake</li><li>In-unit washer and dryer</li><li>Building amenities include pool, gym, and concierge</li></ul>",
+            "summary": "Enjoy stunning lake views from this contemporary two-bedroom condominium in the sought-after Lakeside Tower. Floor-to-ceiling windows flood the open living space with natural light.Key FeaturesPanoram"
+          },
+          "price": "$375,000",
+          "bedrooms": 2,
+          "bathrooms": 2,
+          "squareFeet": "1,200",
+          "address": "200 Lakeside Drive, Unit 1805",
+          "propertyType": "Condominium",
+          "listingType": "For Sale",
+          "image": {
+            "url": "https://images.unsplash.com/photo-1502672260266-1c1ef2d93688?w=800&q=80",
+            "alt": "Modern condo interior with lake view",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1502672260266-1c1ef2d93688?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1502672260266-1c1ef2d93688?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1502672260266-1c1ef2d93688?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          }
+        },
+        {
+          "__typename": "NodeListing",
+          "id": "listing-colonial",
+          "title": "Stately Colonial Estate",
+          "path": "/listings/colonial-estate-willow-creek",
+          "body": {
+            "processed": "<p>A magnificent Colonial estate set on two acres of manicured grounds. This five-bedroom home offers gracious living spaces, a gourmet kitchen, and resort-style outdoor amenities.</p><h2>Key Features</h2><ul><li>Grand foyer with sweeping staircase</li><li>Chef's kitchen with island and butler's pantry</li><li>Primary suite with sitting room and spa bath</li><li>Heated in-ground pool with pool house</li><li>Three-car attached garage</li><li>Home theater and wine cellar</li></ul>",
+            "summary": "A magnificent Colonial estate set on two acres of manicured grounds. This five-bedroom home offers gracious living spaces, a gourmet kitchen, and resort-style outdoor amenities.Key FeaturesGrand foyer"
+          },
+          "price": "$1,250,000",
+          "bedrooms": 5,
+          "bathrooms": 4,
+          "squareFeet": "4,200",
+          "address": "15 Willow Creek Lane",
+          "propertyType": "Single Family",
+          "listingType": "For Sale",
+          "image": {
+            "url": "https://images.unsplash.com/photo-1564013799919-ab600027ffc6?w=800&q=80",
+            "alt": "Stately colonial home with landscaped yard",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1564013799919-ab600027ffc6?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1564013799919-ab600027ffc6?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1564013799919-ab600027ffc6?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          }
+        },
+        {
+          "__typename": "NodeListing",
+          "id": "listing-rental",
+          "title": "Industrial-Chic Downtown Loft",
+          "path": "/listings/downtown-loft-rental",
+          "body": {
+            "processed": "<p>Live in the heart of the arts district in this converted warehouse loft featuring soaring 14-foot ceilings, exposed brick walls, and oversized factory windows.</p><h2>Key Features</h2><ul><li>Open floor plan with 14-foot ceilings</li><li>Original exposed brick and timber beams</li><li>Updated kitchen with concrete countertops</li><li>Walk-in closet and en-suite bathroom</li><li>One dedicated parking space</li><li>Pet-friendly building</li></ul>",
+            "summary": "Live in the heart of the arts district in this converted warehouse loft featuring soaring 14-foot ceilings, exposed brick walls, and oversized factory windows.Key FeaturesOpen floor plan with 14-foot "
+          },
+          "price": "$2,400/month",
+          "bedrooms": 1,
+          "bathrooms": 1,
+          "squareFeet": "950",
+          "address": "88 Warehouse Row, Loft 4B",
+          "propertyType": "Loft",
+          "listingType": "For Rent",
+          "image": {
+            "url": "https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?w=800&q=80",
+            "alt": "Industrial loft with exposed brick",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          }
+        }
+      ]
+    }
+  }
+}

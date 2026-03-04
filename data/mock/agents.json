@@ -1,0 +1,129 @@
+{
+  "data": {
+    "nodeAgents": {
+      "__typename": "NodeAgentConnection",
+      "nodes": [
+        {
+          "__typename": "NodeAgent",
+          "id": "agent-rachel",
+          "title": "Rachel Morgan",
+          "path": "/agents/rachel-morgan",
+          "body": {
+            "processed": "<p>Rachel is the founder and lead broker of Crestview Realty. With over 15 years of experience and $250M in career sales, she specializes in luxury residential properties and has consistently been recognized as a top producer in the region.</p>",
+            "summary": "Rachel is the founder and lead broker of Crestview Realty. With over 15 years of experience and $250M in career sales, she specializes in luxury residential properties and has consistently been recogn"
+          },
+          "position": "Broker / Owner",
+          "email": "rachel@crestviewrealty.com",
+          "phone": "(555) 234-5678",
+          "licenseNumber": "RE-2010-45678",
+          "photo": {
+            "url": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=800&q=80",
+            "alt": "Rachel Morgan, Broker",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          }
+        },
+        {
+          "__typename": "NodeAgent",
+          "id": "agent-tom",
+          "title": "Tom Delgado",
+          "path": "/agents/tom-delgado",
+          "body": {
+            "processed": "<p>Tom specializes in first-time homebuyers and investment properties. His patient, educational approach has helped hundreds of families navigate the home buying process with confidence. He is bilingual in English and Spanish.</p>",
+            "summary": "Tom specializes in first-time homebuyers and investment properties. His patient, educational approach has helped hundreds of families navigate the home buying process with confidence. He is bilingual "
+          },
+          "position": "Senior Agent",
+          "email": "tom@crestviewrealty.com",
+          "phone": "(555) 234-5679",
+          "licenseNumber": "RE-2015-67890",
+          "photo": {
+            "url": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=800&q=80",
+            "alt": "Tom Delgado, Senior Agent",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          }
+        },
+        {
+          "__typename": "NodeAgent",
+          "id": "agent-priya",
+          "title": "Priya Sharma",
+          "path": "/agents/priya-sharma",
+          "body": {
+            "processed": "<p>Priya brings a background in urban planning to her real estate practice, giving her clients unique insights into neighborhood development trends and investment potential. She focuses on condominiums and urban properties.</p>",
+            "summary": "Priya brings a background in urban planning to her real estate practice, giving her clients unique insights into neighborhood development trends and investment potential. She focuses on condominiums a"
+          },
+          "position": "Agent, Urban Properties",
+          "email": "priya@crestviewrealty.com",
+          "phone": "(555) 234-5680",
+          "licenseNumber": "RE-2018-12345",
+          "photo": {
+            "url": "https://images.unsplash.com/photo-1580489944761-15a19d654956?w=800&q=80",
+            "alt": "Priya Sharma, Agent",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1580489944761-15a19d654956?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1580489944761-15a19d654956?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1580489944761-15a19d654956?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          }
+        }
+      ]
+    }
+  }
+}

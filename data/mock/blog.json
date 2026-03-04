@@ -1,0 +1,120 @@
+{
+  "data": {
+    "nodeBlogPosts": {
+      "__typename": "NodeBlogPostConnection",
+      "nodes": [
+        {
+          "__typename": "NodeBlogPost",
+          "id": "blog-spring-market",
+          "title": "Spring 2026 Housing Market Outlook",
+          "path": "/blog/spring-market-outlook",
+          "body": {
+            "processed": "<p>As we head into the spring selling season, the local housing market is showing signs of balanced conditions after several years of intense competition.</p><h2>What Buyers Should Know</h2><ul><li>Inventory levels are up 15% compared to last spring</li><li>Mortgage rates have stabilized in the mid-6% range</li><li>Multiple offer situations are less common but still happen in desirable neighborhoods</li></ul><h2>What Sellers Should Know</h2><ul><li>Pricing correctly from day one is more important than ever</li><li>Homes that are well-staged and professionally photographed sell 20% faster</li><li>The first two weeks on the market are critical for generating interest</li></ul>",
+            "summary": "As we head into the spring selling season, the local housing market is showing signs of balanced conditions after several years of intense competition.What Buyers Should KnowInventory levels are up 15"
+          },
+          "postCategory": "Market Update",
+          "image": {
+            "url": "https://images.unsplash.com/photo-1560518883-ce09059eeffa?w=800&q=80",
+            "alt": "Spring housing market with homes for sale",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1560518883-ce09059eeffa?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1560518883-ce09059eeffa?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1560518883-ce09059eeffa?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          }
+        },
+        {
+          "__typename": "NodeBlogPost",
+          "id": "blog-first-time",
+          "title": "The Complete First-Time Homebuyer Guide",
+          "path": "/blog/first-time-homebuyer-guide",
+          "body": {
+            "processed": "<p>Buying your first home is one of the most exciting and overwhelming experiences of your life. This guide breaks the process down into manageable steps.</p><h2>Before You Start Looking</h2><ul><li>Check your credit score and address any issues</li><li>Get pre-approved for a mortgage</li><li>Determine your budget (including closing costs and moving expenses)</li><li>Make a wish list vs. a must-have list</li></ul><h2>The Buying Process</h2><ul><li>Work with an experienced buyer's agent</li><li>Tour properties and take notes</li><li>Make an offer and negotiate</li><li>Complete inspections and appraisal</li><li>Close and get your keys</li></ul><p>Our agents specialize in guiding first-time buyers through every step. Reach out for a free consultation.</p>",
+            "summary": "Buying your first home is one of the most exciting and overwhelming experiences of your life. This guide breaks the process down into manageable steps.Before You Start LookingCheck your credit score a"
+          },
+          "postCategory": "Buyer Guide",
+          "image": {
+            "url": "https://images.unsplash.com/photo-1560184897-ae75f418493e?w=800&q=80",
+            "alt": "Couple receiving keys to their new home",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1560184897-ae75f418493e?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1560184897-ae75f418493e?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1560184897-ae75f418493e?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          }
+        },
+        {
+          "__typename": "NodeBlogPost",
+          "id": "blog-staging",
+          "title": "10 Home Staging Tips That Actually Work",
+          "path": "/blog/home-staging-tips",
+          "body": {
+            "processed": "<p>Staged homes sell faster and for more money. Here are proven staging strategies that deliver real results.</p><h2>High-Impact Tips</h2><ul><li><strong>Declutter ruthlessly</strong> - Remove 50% of your belongings from visible surfaces</li><li><strong>Deep clean everything</strong> - Especially kitchens, bathrooms, and windows</li><li><strong>Neutralize paint colors</strong> - Light gray and warm white appeal to the widest audience</li><li><strong>Upgrade lighting</strong> - Replace dated fixtures and add lamps for warmth</li><li><strong>Boost curb appeal</strong> - Fresh mulch, trimmed hedges, and a painted front door</li></ul><h2>The Numbers</h2><p>According to the National Association of Realtors, staged homes sell for an average of 6% more than non-staged homes and spend 73% less time on the market.</p>",
+            "summary": "Staged homes sell faster and for more money. Here are proven staging strategies that deliver real results.High-Impact TipsDeclutter ruthlessly - Remove 50% of your belongings from visible surfacesDeep"
+          },
+          "postCategory": "Seller Tips",
+          "image": {
+            "url": "https://images.unsplash.com/photo-1616486338812-3dadae4b4ace?w=800&q=80",
+            "alt": "Beautifully staged living room",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1616486338812-3dadae4b4ace?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1616486338812-3dadae4b4ace?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1616486338812-3dadae4b4ace?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          }
+        }
+      ]
+    }
+  }
+}

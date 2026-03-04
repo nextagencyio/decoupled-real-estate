@@ -1,0 +1,287 @@
+{
+  "model": [
+    {
+      "bundle": "homepage",
+      "label": "Homepage",
+      "description": "Landing page with hero section, statistics, and call-to-action areas",
+      "fields": [
+        { "id": "hero_title", "label": "Hero Title", "type": "string", "description": "Main headline in the hero section" },
+        { "id": "hero_subtitle", "label": "Hero Subtitle", "type": "string", "description": "Secondary text below the hero title" },
+        { "id": "hero_description", "label": "Hero Description", "type": "text", "description": "Longer descriptive text for the hero section" },
+        { "id": "stats_items", "label": "Statistics", "type": "paragraph(stat_item)[]", "description": "Key metrics and statistics" },
+        { "id": "featured_items_title", "label": "Featured Items Title", "type": "string", "description": "Heading for the featured listings section" },
+        { "id": "cta_title", "label": "CTA Title", "type": "string" },
+        { "id": "cta_description", "label": "CTA Description", "type": "text" },
+        { "id": "cta_primary", "label": "Primary CTA", "type": "string" },
+        { "id": "cta_secondary", "label": "Secondary CTA", "type": "string" }
+      ]
+    },
+    {
+      "bundle": "listing",
+      "label": "Listing",
+      "description": "Property listings for sale or rent",
+      "body": true,
+      "fields": [
+        { "id": "price", "label": "Price", "type": "string", "description": "Listing price" },
+        { "id": "bedrooms", "label": "Bedrooms", "type": "integer", "description": "Number of bedrooms" },
+        { "id": "bathrooms", "label": "Bathrooms", "type": "integer", "description": "Number of bathrooms" },
+        { "id": "square_feet", "label": "Square Feet", "type": "string", "description": "Total square footage" },
+        { "id": "address", "label": "Address", "type": "string", "description": "Property address" },
+        { "id": "property_type", "label": "Property Type", "type": "string", "description": "Type of property" },
+        { "id": "listing_type", "label": "Listing Type", "type": "string", "description": "For Sale or For Rent" },
+        { "id": "image", "label": "Featured Image", "type": "image", "description": "Main photo of the property" }
+      ]
+    },
+    {
+      "bundle": "agent",
+      "label": "Agent",
+      "description": "Real estate agents and brokers",
+      "body": true,
+      "fields": [
+        { "id": "position", "label": "Position", "type": "string", "description": "Job title or role" },
+        { "id": "email", "label": "Email", "type": "string", "description": "Professional email address" },
+        { "id": "phone", "label": "Phone", "type": "string", "description": "Contact phone number" },
+        { "id": "license_number", "label": "License Number", "type": "string", "description": "Real estate license number" },
+        { "id": "photo", "label": "Photo", "type": "image", "description": "Professional headshot" }
+      ]
+    },
+    {
+      "bundle": "neighborhood",
+      "label": "Neighborhood",
+      "description": "Neighborhood guides and area information",
+      "body": true,
+      "fields": [
+        { "id": "median_price", "label": "Median Price", "type": "string", "description": "Median home price in the area" },
+        { "id": "walk_score", "label": "Walk Score", "type": "integer", "description": "Walkability score out of 100" },
+        { "id": "image", "label": "Featured Image", "type": "image", "description": "Neighborhood photo" }
+      ]
+    },
+    {
+      "bundle": "blog_post",
+      "label": "Blog Post",
+      "description": "Real estate market insights and buying guides",
+      "body": true,
+      "fields": [
+        { "id": "post_category", "label": "Post Category", "type": "string", "description": "Blog post category" },
+        { "id": "image", "label": "Featured Image", "type": "image", "description": "Main image for the blog post" }
+      ]
+    },
+    {
+      "bundle": "page",
+      "label": "Basic Page",
+      "description": "Static content pages for about, contact, etc.",
+      "body": true,
+      "fields": []
+    },
+    {
+      "entity": "paragraph",
+      "bundle": "stat_item",
+      "label": "Statistic Item",
+      "description": "Individual statistic with number and label",
+      "fields": [
+        { "id": "number", "label": "Number", "type": "string!", "description": "Statistic value" },
+        { "id": "label", "label": "Label", "type": "string!", "description": "Statistic label" }
+      ]
+    }
+  ],
+  "content": [
+    {
+      "id": "stat-1", "type": "paragraph.stat_item",
+      "values": { "number": "1,200+", "label": "Homes Sold" }
+    },
+    {
+      "id": "stat-2", "type": "paragraph.stat_item",
+      "values": { "number": "98%", "label": "Client Satisfaction" }
+    },
+    {
+      "id": "stat-3", "type": "paragraph.stat_item",
+      "values": { "number": "$850M", "label": "Total Sales Volume" }
+    },
+    {
+      "id": "stat-4", "type": "paragraph.stat_item",
+      "values": { "number": "15", "label": "Years in Business" }
+    },
+    {
+      "id": "homepage", "type": "node.homepage", "path": "/homepage",
+      "values": {
+        "title": "Crestview Realty Homepage",
+        "hero_title": "Find Your Perfect Home",
+        "hero_subtitle": "Crestview Realty",
+        "hero_description": "<p>Whether you are buying your first home, upgrading to your dream property, or investing in real estate, our experienced agents are here to guide you every step of the way.</p>",
+        "stats_items": ["@stat-1", "@stat-2", "@stat-3", "@stat-4"],
+        "featured_items_title": "Featured Listings",
+        "cta_title": "Ready to Make Your Move?",
+        "cta_description": "<p>Connect with one of our expert agents for a personalized consultation. We will help you navigate the market and find the right property at the right price.</p>",
+        "cta_primary": "Schedule a Showing",
+        "cta_secondary": "Browse Listings"
+      }
+    },
+    {
+      "id": "listing-craftsman", "type": "node.listing", "path": "/listings/craftsman-bungalow-oak-park",
+      "values": {
+        "title": "Charming Craftsman Bungalow",
+        "body": "<p>This beautifully restored 1920s Craftsman bungalow combines original character with modern amenities. Featuring original hardwood floors, built-in cabinetry, and a stunning stone fireplace in the living room.</p><h2>Key Features</h2><ul><li>Original hardwood floors throughout</li><li>Updated chef's kitchen with quartz countertops</li><li>Finished basement with home office</li><li>Private backyard with mature landscaping</li><li>Detached two-car garage</li><li>Walking distance to downtown shops and restaurants</li></ul>",
+        "price": "$485,000",
+        "bedrooms": 3,
+        "bathrooms": 2,
+        "square_feet": "1,850",
+        "address": "742 Oak Park Avenue",
+        "property_type": "Single Family",
+        "listing_type": "For Sale",
+        "image": { "uri": "https://images.unsplash.com/photo-1518780664697-55e3ad937233?w=800&q=80", "alt": "Craftsman bungalow with front porch", "title": "Craftsman Bungalow" }
+      }
+    },
+    {
+      "id": "listing-modern", "type": "node.listing", "path": "/listings/modern-lakefront-condo",
+      "values": {
+        "title": "Modern Lakefront Condominium",
+        "body": "<p>Enjoy stunning lake views from this contemporary two-bedroom condominium in the sought-after Lakeside Tower. Floor-to-ceiling windows flood the open living space with natural light.</p><h2>Key Features</h2><ul><li>Panoramic lake views from every room</li><li>Open-concept living and dining area</li><li>Gourmet kitchen with stainless steel appliances</li><li>Private balcony overlooking the lake</li><li>In-unit washer and dryer</li><li>Building amenities include pool, gym, and concierge</li></ul>",
+        "price": "$375,000",
+        "bedrooms": 2,
+        "bathrooms": 2,
+        "square_feet": "1,200",
+        "address": "200 Lakeside Drive, Unit 1805",
+        "property_type": "Condominium",
+        "listing_type": "For Sale",
+        "image": { "uri": "https://images.unsplash.com/photo-1502672260266-1c1ef2d93688?w=800&q=80", "alt": "Modern condo interior with lake view", "title": "Lakefront Condo" }
+      }
+    },
+    {
+      "id": "listing-colonial", "type": "node.listing", "path": "/listings/colonial-estate-willow-creek",
+      "values": {
+        "title": "Stately Colonial Estate",
+        "body": "<p>A magnificent Colonial estate set on two acres of manicured grounds. This five-bedroom home offers gracious living spaces, a gourmet kitchen, and resort-style outdoor amenities.</p><h2>Key Features</h2><ul><li>Grand foyer with sweeping staircase</li><li>Chef's kitchen with island and butler's pantry</li><li>Primary suite with sitting room and spa bath</li><li>Heated in-ground pool with pool house</li><li>Three-car attached garage</li><li>Home theater and wine cellar</li></ul>",
+        "price": "$1,250,000",
+        "bedrooms": 5,
+        "bathrooms": 4,
+        "square_feet": "4,200",
+        "address": "15 Willow Creek Lane",
+        "property_type": "Single Family",
+        "listing_type": "For Sale",
+        "image": { "uri": "https://images.unsplash.com/photo-1564013799919-ab600027ffc6?w=800&q=80", "alt": "Stately colonial home with landscaped yard", "title": "Colonial Estate" }
+      }
+    },
+    {
+      "id": "listing-rental", "type": "node.listing", "path": "/listings/downtown-loft-rental",
+      "values": {
+        "title": "Industrial-Chic Downtown Loft",
+        "body": "<p>Live in the heart of the arts district in this converted warehouse loft featuring soaring 14-foot ceilings, exposed brick walls, and oversized factory windows.</p><h2>Key Features</h2><ul><li>Open floor plan with 14-foot ceilings</li><li>Original exposed brick and timber beams</li><li>Updated kitchen with concrete countertops</li><li>Walk-in closet and en-suite bathroom</li><li>One dedicated parking space</li><li>Pet-friendly building</li></ul>",
+        "price": "$2,400/month",
+        "bedrooms": 1,
+        "bathrooms": 1,
+        "square_feet": "950",
+        "address": "88 Warehouse Row, Loft 4B",
+        "property_type": "Loft",
+        "listing_type": "For Rent",
+        "image": { "uri": "https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?w=800&q=80", "alt": "Industrial loft with exposed brick", "title": "Downtown Loft" }
+      }
+    },
+    {
+      "id": "agent-rachel", "type": "node.agent", "path": "/agents/rachel-morgan",
+      "values": {
+        "title": "Rachel Morgan",
+        "body": "<p>Rachel is the founder and lead broker of Crestview Realty. With over 15 years of experience and $250M in career sales, she specializes in luxury residential properties and has consistently been recognized as a top producer in the region.</p>",
+        "position": "Broker / Owner",
+        "email": "rachel@crestviewrealty.com",
+        "phone": "(555) 234-5678",
+        "license_number": "RE-2010-45678",
+        "photo": { "uri": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=800&q=80", "alt": "Rachel Morgan, Broker", "title": "Rachel Morgan" }
+      }
+    },
+    {
+      "id": "agent-tom", "type": "node.agent", "path": "/agents/tom-delgado",
+      "values": {
+        "title": "Tom Delgado",
+        "body": "<p>Tom specializes in first-time homebuyers and investment properties. His patient, educational approach has helped hundreds of families navigate the home buying process with confidence. He is bilingual in English and Spanish.</p>",
+        "position": "Senior Agent",
+        "email": "tom@crestviewrealty.com",
+        "phone": "(555) 234-5679",
+        "license_number": "RE-2015-67890",
+        "photo": { "uri": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=800&q=80", "alt": "Tom Delgado, Senior Agent", "title": "Tom Delgado" }
+      }
+    },
+    {
+      "id": "agent-priya", "type": "node.agent", "path": "/agents/priya-sharma",
+      "values": {
+        "title": "Priya Sharma",
+        "body": "<p>Priya brings a background in urban planning to her real estate practice, giving her clients unique insights into neighborhood development trends and investment potential. She focuses on condominiums and urban properties.</p>",
+        "position": "Agent, Urban Properties",
+        "email": "priya@crestviewrealty.com",
+        "phone": "(555) 234-5680",
+        "license_number": "RE-2018-12345",
+        "photo": { "uri": "https://images.unsplash.com/photo-1580489944761-15a19d654956?w=800&q=80", "alt": "Priya Sharma, Agent", "title": "Priya Sharma" }
+      }
+    },
+    {
+      "id": "neighborhood-downtown", "type": "node.neighborhood", "path": "/neighborhoods/downtown",
+      "values": {
+        "title": "Downtown",
+        "body": "<p>The vibrant heart of the city, Downtown offers an urban lifestyle with walkable streets, diverse dining options, and a thriving arts and entertainment scene.</p><h2>Living Here</h2><ul><li>Condos and lofts ranging from studios to three-bedrooms</li><li>Steps from restaurants, cafes, and nightlife</li><li>Excellent public transit connections</li><li>Farmers market every Saturday</li></ul><h2>Best For</h2><p>Young professionals, couples, and anyone who values walkability and cultural access over yard space.</p>",
+        "median_price": "$340,000",
+        "walk_score": 92,
+        "image": { "uri": "https://images.unsplash.com/photo-1449824913935-59a10b8d2000?w=800&q=80", "alt": "Downtown city streets with shops and restaurants", "title": "Downtown Neighborhood" }
+      }
+    },
+    {
+      "id": "neighborhood-oakpark", "type": "node.neighborhood", "path": "/neighborhoods/oak-park",
+      "values": {
+        "title": "Oak Park",
+        "body": "<p>A charming, tree-lined neighborhood known for its historic homes, excellent schools, and strong sense of community. Oak Park is consistently ranked among the best places to raise a family.</p><h2>Living Here</h2><ul><li>Craftsman bungalows, Victorians, and newer construction</li><li>Top-rated elementary and middle schools</li><li>Community parks with playgrounds and sports fields</li><li>Annual block parties and neighborhood events</li></ul><h2>Best For</h2><p>Families, professionals seeking a quieter lifestyle with easy access to the city, and architecture enthusiasts.</p>",
+        "median_price": "$475,000",
+        "walk_score": 78,
+        "image": { "uri": "https://images.unsplash.com/photo-1568605114967-8130f3a36994?w=800&q=80", "alt": "Tree-lined residential street in Oak Park", "title": "Oak Park Neighborhood" }
+      }
+    },
+    {
+      "id": "neighborhood-lakeside", "type": "node.neighborhood", "path": "/neighborhoods/lakeside",
+      "values": {
+        "title": "Lakeside",
+        "body": "<p>An upscale waterfront community offering luxury living with stunning lake views. Lakeside features high-rise condos, boutique shopping, and some of the best dining in the region.</p><h2>Living Here</h2><ul><li>Luxury condominiums and townhomes</li><li>Lakefront walking and biking trails</li><li>Marina with boat slips</li><li>Upscale shopping and fine dining</li></ul><h2>Best For</h2><p>Professionals and retirees who value premium amenities, lake access, and a resort-like atmosphere.</p>",
+        "median_price": "$625,000",
+        "walk_score": 85,
+        "image": { "uri": "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=800&q=80", "alt": "Lakeside community with waterfront condos", "title": "Lakeside Neighborhood" }
+      }
+    },
+    {
+      "id": "blog-spring-market", "type": "node.blog_post", "path": "/blog/spring-market-outlook",
+      "values": {
+        "title": "Spring 2026 Housing Market Outlook",
+        "body": "<p>As we head into the spring selling season, the local housing market is showing signs of balanced conditions after several years of intense competition.</p><h2>What Buyers Should Know</h2><ul><li>Inventory levels are up 15% compared to last spring</li><li>Mortgage rates have stabilized in the mid-6% range</li><li>Multiple offer situations are less common but still happen in desirable neighborhoods</li></ul><h2>What Sellers Should Know</h2><ul><li>Pricing correctly from day one is more important than ever</li><li>Homes that are well-staged and professionally photographed sell 20% faster</li><li>The first two weeks on the market are critical for generating interest</li></ul>",
+        "post_category": "Market Update",
+        "image": { "uri": "https://images.unsplash.com/photo-1560518883-ce09059eeffa?w=800&q=80", "alt": "Spring housing market with homes for sale", "title": "Spring Market Outlook" }
+      }
+    },
+    {
+      "id": "blog-first-time", "type": "node.blog_post", "path": "/blog/first-time-homebuyer-guide",
+      "values": {
+        "title": "The Complete First-Time Homebuyer Guide",
+        "body": "<p>Buying your first home is one of the most exciting and overwhelming experiences of your life. This guide breaks the process down into manageable steps.</p><h2>Before You Start Looking</h2><ul><li>Check your credit score and address any issues</li><li>Get pre-approved for a mortgage</li><li>Determine your budget (including closing costs and moving expenses)</li><li>Make a wish list vs. a must-have list</li></ul><h2>The Buying Process</h2><ul><li>Work with an experienced buyer's agent</li><li>Tour properties and take notes</li><li>Make an offer and negotiate</li><li>Complete inspections and appraisal</li><li>Close and get your keys</li></ul><p>Our agents specialize in guiding first-time buyers through every step. Reach out for a free consultation.</p>",
+        "post_category": "Buyer Guide",
+        "image": { "uri": "https://images.unsplash.com/photo-1560184897-ae75f418493e?w=800&q=80", "alt": "Couple receiving keys to their new home", "title": "First-Time Homebuyer Guide" }
+      }
+    },
+    {
+      "id": "blog-staging", "type": "node.blog_post", "path": "/blog/home-staging-tips",
+      "values": {
+        "title": "10 Home Staging Tips That Actually Work",
+        "body": "<p>Staged homes sell faster and for more money. Here are proven staging strategies that deliver real results.</p><h2>High-Impact Tips</h2><ul><li><strong>Declutter ruthlessly</strong> - Remove 50% of your belongings from visible surfaces</li><li><strong>Deep clean everything</strong> - Especially kitchens, bathrooms, and windows</li><li><strong>Neutralize paint colors</strong> - Light gray and warm white appeal to the widest audience</li><li><strong>Upgrade lighting</strong> - Replace dated fixtures and add lamps for warmth</li><li><strong>Boost curb appeal</strong> - Fresh mulch, trimmed hedges, and a painted front door</li></ul><h2>The Numbers</h2><p>According to the National Association of Realtors, staged homes sell for an average of 6% more than non-staged homes and spend 73% less time on the market.</p>",
+        "post_category": "Seller Tips",
+        "image": { "uri": "https://images.unsplash.com/photo-1616486338812-3dadae4b4ace?w=800&q=80", "alt": "Beautifully staged living room", "title": "Home Staging Tips" }
+      }
+    },
+    {
+      "id": "about-page", "type": "node.page", "path": "/about",
+      "values": {
+        "title": "About Crestview Realty",
+        "body": "<p>Crestview Realty has been helping families buy and sell homes since 2011. As a locally owned and operated brokerage, we combine deep neighborhood expertise with modern marketing strategies to deliver exceptional results for our clients.</p><h2>Our Approach</h2><p>We believe in a relationship-first approach to real estate. Our agents take the time to understand your goals, timeline, and budget before showing you a single property. This personalized service has earned us a 98% client satisfaction rating.</p><h2>Our Promise</h2><ul><li><strong>Expert Guidance</strong> - Licensed, experienced agents who know the local market</li><li><strong>Transparent Communication</strong> - Regular updates and honest advice throughout the process</li><li><strong>Full-Service Support</strong> - From financing to closing, we coordinate every detail</li></ul>"
+      }
+    },
+    {
+      "id": "contact-page", "type": "node.page", "path": "/contact",
+      "values": {
+        "title": "Contact Crestview Realty",
+        "body": "<p>Ready to start your real estate journey? We would love to hear from you.</p><h2>Office</h2><p>Crestview Realty<br/>456 Main Street, Suite 200<br/>Springfield, IL 62701</p><h2>Hours</h2><p>Monday - Friday: 9:00 AM - 6:00 PM<br/>Saturday: 10:00 AM - 4:00 PM<br/>Sunday: By Appointment</p><h2>Contact</h2><p>Phone: (555) 234-5678<br/>Email: info@crestviewrealty.com</p>"
+      }
+    }
+  ]
+}
