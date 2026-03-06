@@ -19,28 +19,28 @@
               "__typename": "ParagraphStatItem",
               "id": "stat-1",
               "title": "",
-              "number": "1,200+",
+              "number": "1,200+", "value": "1,200+",
               "label": "Homes Sold"
             },
             {
               "__typename": "ParagraphStatItem",
               "id": "stat-2",
               "title": "",
-              "number": "98%",
+              "number": "98%", "value": "98%",
               "label": "Client Satisfaction"
             },
             {
               "__typename": "ParagraphStatItem",
               "id": "stat-3",
               "title": "",
-              "number": "$850M",
+              "number": "$850M", "value": "$850M",
               "label": "Total Sales Volume"
             },
             {
               "__typename": "ParagraphStatItem",
               "id": "stat-4",
               "title": "",
-              "number": "15",
+              "number": "15", "value": "15",
               "label": "Years in Business"
             }
           ],
