@@ -7,6 +7,7 @@ import Header from '../components/Header'
 import NeighborhoodCard from '../components/NeighborhoodCard'
 
 export const revalidate = 3600
+export const dynamic = 'force-dynamic'
 
 export const metadata: Metadata = {
   title: 'Neighborhood Guides | Crestview Realty',

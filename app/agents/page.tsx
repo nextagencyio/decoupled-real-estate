@@ -7,6 +7,7 @@ import Header from '../components/Header'
 import AgentCard from '../components/AgentCard'
 
 export const revalidate = 3600
+export const dynamic = 'force-dynamic'
 
 export const metadata: Metadata = {
   title: 'Our Agents | Crestview Realty',
